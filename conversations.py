@@ -33,7 +33,7 @@ class Conversation:
             stats = self.engine.get_stats()
             self.send_reply(line, ", ".join(stats))
         elif cmd == "eval":
-            self.send_reply(line, "Sorry, I don't tell that to my opponent.")
+            self.send_reply(line, "I don't tell that to my opponent, sorry.")
         elif cmd == "queue":
             if self.challengers:
                 challengers = ", ".join(["@" + challenger.challenger_name for challenger in reversed(self.challengers)])
