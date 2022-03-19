@@ -1,4 +1,4 @@
-***How to setup:***
+***How to setup:-***
 Import or Fork this repository to your Github.
 Open the config.yml file and insert your API access token in to token option and commit changes over here.
 Install Heroku CLI and create a new app in Heroku.
